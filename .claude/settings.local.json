@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "mcp__openrouter-collab__ask_ai",
+      "mcp__openrouter-collab__list_models",
+      "mcp__openrouter-collab__get_token_usage",
+      "Bash(npm run lint)",
+      "Bash(npm run build:*)"
     ],
     "deny": []
   }
